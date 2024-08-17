@@ -35,7 +35,7 @@ const Login = () => {
             <div className="text-gray-400 flex flex-col space-y-4 mt-4">
                 <span className="text-center">or</span>
               <div className="text-center">
-                <button className="bg=white border border-white text-white py-2 px-24 rounded-md text-center">
+                <button className="bg-white bg-opacity-20 text-white py-2 px-24 text-nowrap rounded">
                   use a sign-in code
                 </button>
               </div>

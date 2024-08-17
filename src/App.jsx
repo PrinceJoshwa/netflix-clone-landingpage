@@ -15,15 +15,21 @@ function App() {
   return (
     <>
       {location.pathname !== "/login" && <Header />}
+      <hr className="border-4 border-zinc-800" />
       
       <Routes>
         <Route path="/" element={
           <>
             <Watch />
+            <hr className="border-4 border-zinc-800" />
             <Download />
+            <hr className="border-4 border-zinc-800" />
             <Location />
+            <hr className="border-4 border-zinc-800" />
             <Profile />
+            <hr className="border-4 border-zinc-800" />
             <Faq />
+            <hr className="border-4 border-zinc-800" />
           </>
         } />
         <Route path="/login" element={<Login />} />
