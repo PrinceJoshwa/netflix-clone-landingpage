@@ -2,7 +2,7 @@ import React from "react";
 
 const Download = () => {
   return (
-    <section class="bg-black py-20">
+    <section className="bg-black py-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-32">
         <div className="md:w-1/2">
           <img

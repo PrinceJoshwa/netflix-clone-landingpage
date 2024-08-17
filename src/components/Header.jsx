@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; 
 import bannerImage from "../assets/banner.jpg";
 import logo from "../assets/logo.png";
 import { AiOutlineRight } from "react-icons/ai";
 import { BsFillCaretDownFill } from "react-icons/bs";
 
 const Header = () => {
+  const navigate = useNavigate(); 
+
   return (
     <header
       className="relative h-[700px] bg-cover bg-center text-white object-center"
@@ -20,8 +23,7 @@ const Header = () => {
           <img src={logo} alt="Logo" className="h-25" />
         </div>
 
-        <div className="flex
-         items-center space-x-2">
+        <div className="flex items-center space-x-2">
           <div className="relative">
             <select className="bg-inherit text-white p-1 rounded-md border border-white text-lg appearance-none pr-10 hover:outline">
               <option value="en" className="text-black">English</option>
@@ -29,7 +31,10 @@ const Header = () => {
             </select>
             <BsFillCaretDownFill className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white text-lg pointer-events-none" />
           </div>
-          <button className="bg-red-600 text-white px-4 py-1 rounded-md text-lg">
+          <button
+            className="bg-red-600 text-white px-4 py-1 rounded-md text-lg"
+            onClick={() => navigate("/login")} 
+          >
             Sign In
           </button>
         </div>
