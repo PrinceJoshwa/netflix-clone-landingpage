@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../assets/tv.png"
 const Watch = () => {
   return (
     <section className="bg-black py-20">
@@ -16,7 +16,7 @@ const Watch = () => {
 
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <img
-            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+            src={image}
             alt="Section 2"
             className="w-full h-auto max-w-md rounded-lg shadow-lg"
           />

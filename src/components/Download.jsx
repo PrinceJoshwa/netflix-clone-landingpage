@@ -1,12 +1,15 @@
 import React from "react";
 
+import image from "../assets/download.jpg"
+
+
 const Download = () => {
   return (
     <section className="bg-black py-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-32">
         <div className="md:w-1/2">
           <img
-            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            src={image}
             alt="Section 1"
             className="w-full h-auto rounded-lg shadow-lg"
           />

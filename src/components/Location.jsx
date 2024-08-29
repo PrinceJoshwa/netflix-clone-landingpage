@@ -1,5 +1,8 @@
 import React from "react";
 
+import image from "../assets/location.png"
+
+
 const Location = () => {
   return (
     <section className="bg-black py-20">
@@ -15,7 +18,7 @@ const Location = () => {
         </div>
         <div className="md:w-1/2">
           <img
-            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+            src={image}
             alt="Section 1"
             className="w-full h-auto rounded-lg shadow-lg"
           />
