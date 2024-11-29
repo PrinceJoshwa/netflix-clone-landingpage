@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of administrative pages
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+
+# Allow crawling of assets
+Allow: /static/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Sitemap location
+Sitemap: https://netflix-clone-landingpage.vercel.app/sitemap.xml
