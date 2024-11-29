@@ -15,4 +15,4 @@ Allow: /css/
 Allow: /js/
 
 # Sitemap location
-Sitemap: https://netflix-clone-landingpage.vercel.app/sitemap.xml
+Sitemap: https://browserflix-landingpage.vercel.app/sitemap.xml
