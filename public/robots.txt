@@ -15,4 +15,4 @@ Allow: /css/
 Allow: /js/
 
 # Sitemap location
-Sitemap: https://browserflix-landingpage.vercel.app/sitemap.xml
+Sitemap: https://webflix-landingpage.vercel.app/sitemap.xml
