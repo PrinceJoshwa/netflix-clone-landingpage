@@ -5,6 +5,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/
+Disallow: /account/
+Disallow: /browse/
 
 # Allow crawling of assets
 Allow: /static/

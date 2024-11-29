@@ -76,13 +76,11 @@
 // export default Header;
 
 
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { AiOutlineRight } from "react-icons/ai";
 import { BsFillCaretDownFill } from "react-icons/bs";
-import bannerImage from "../assets/banner.jpg";
-import logo from "../assets/logo.png";
+import Logo from "./common/Logo";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -91,7 +89,7 @@ const Header = () => {
     <header
       className="relative h-[700px] bg-cover bg-center text-white"
       style={{
-        backgroundImage: `url(${bannerImage})`,
+        backgroundImage: `url('https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg')`,
         backgroundSize: "cover"
       }}
     >
@@ -99,7 +97,7 @@ const Header = () => {
 
       <div className="relative z-10 container mx-auto flex justify-between items-center px-4 pt-6">
         <div className="flex items-center">
-          <img src={logo} alt="Netflix" className="h-20" />
+          <Logo />
         </div>
 
         <div className="flex items-center space-x-4">
@@ -137,7 +135,7 @@ const Header = () => {
               required
             />
           </div>
-          <button type="submit" className="bg-red-600 text-white py-3 px-8 rounded-md text-lg flex items-center justify-center hover:bg-red-700 transition-colors">
+          <button type="submit" className="bg-red-600 text-white py-3 px-8 rounded-md text-lg flex items-center justify-center hover:bg-red-700 transition-colors whitespace-nowrap">
             Get Started
             <AiOutlineRight className="ml-2" />
           </button>
