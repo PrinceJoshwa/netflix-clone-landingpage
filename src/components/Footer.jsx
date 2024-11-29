@@ -126,7 +126,7 @@ const Footer = () => {
     <footer className="bg-black text-gray-400 py-16 px-4 md:px-32">
       <div className="container mx-auto">
         <div className="mb-8">
-          <p className="text-lg">Questions? Call 000-800-919-1694</p>
+          <p className="text-lg">Questions? Call 000-123-456-7890</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
