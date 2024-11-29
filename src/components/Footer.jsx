@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-10 px-32">
       <div className="text-left mb-8">
-        <p className="text-lg">Question? Call 000-800-919-1694</p>
+        <p className="text-lg">Question? Call 000-123-456-7890</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left mb-8 px-4 md:px-0">
